@@ -1,0 +1,8 @@
+.idea
+*.iml
+m2/*
+tests/target
+tests/allure-results
+.DS_Store
+tests/.allure
+tests/build

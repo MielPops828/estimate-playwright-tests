@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Estimate App Suite">
+    <test name="LoginPageTest UI">
+        <classes>
+            <class name="ui.tests.LoginTest" />
+        </classes>
+    </test>
+    <test name="EstimatePageTest UI">
+        <classes>
+            <class name="ui.tests.EstimateTest"/>
+        </classes>
+    </test>
+    <test name="LoginPageTest API">
+        <classes>
+            <class name="api.tests.EstimationTest" />
+        </classes>
+    </test>
+</suite>
